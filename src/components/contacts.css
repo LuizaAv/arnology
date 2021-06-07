@@ -1,0 +1,78 @@
+input{
+    outline: none;
+}
+
+p{
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contactContainer{
+    width: 29.73vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction:column;
+}
+
+.nameSurenameContainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.nameInput{
+    height: 64px;
+    width: 14.16vw;
+    margin-right: 30px;
+}
+
+.lastNameInput{
+    height: 64px;
+    width: 14.16vw;
+}
+
+.emailInput{
+    height: 64px;
+    width: 30vw;
+    margin-bottom: 25px;
+    text-align: ;
+}
+
+.numberInput{
+    height: 64px;
+    width: 30vw;
+    margin-bottom: 25px;
+}
+
+.companyInput{
+    height: 64px;
+    width: 30vw;
+    margin-bottom: 25px;
+}
+
+.messageContainer{
+    height: 164px;
+    width: 30vw;
+    margin-bottom: 25px;
+}
+
+.contactsSubmitButton{
+    height: 64px;
+    width: 30vw;
+    border-radius: 3px;
+    color: #ffff;
+    margin-top: 40px;
+    background-image: linear-gradient(to bottom, #04cfd2, #027e80)
+}
+
+.privacyPolicy{
+    text-align: center;
+    margin-top: 20px;
+}

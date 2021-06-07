@@ -1,0 +1,29 @@
+.navbarContainer{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    margin: 10px;
+    flex-direction: row;
+}
+
+
+
+.pageNames{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+a{
+    margin: 37px;
+}
+
+.getAnEstimateButton{
+    width: 9.16vw;
+    height: 4.95vh;
+    margin: 37px;
+    padding: 15px 18px 14px;
+    background-color: #03989b;
+}
+

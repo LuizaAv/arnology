@@ -1,0 +1,13 @@
+.mainContainer{
+  width: 100vw;
+  height: 201.4vh;
+  padding: 48px 0 0;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactManager{
+  display: flex;
+  flex-direction: row;
+}
