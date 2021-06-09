@@ -1,6 +1,6 @@
 import React from "react"
 import "./contacts.css"
-import logo1 from "../pictures/Flag_of_Armenia.png"
+import PhoneInput from "react-phone-number-input"
 
 export default function Contacts(){
     return(
@@ -16,7 +16,8 @@ export default function Contacts(){
                     </div>
                 </div>
                 <input placeholder="Email*" className="emailInput"/>
-                <input placeholder= "+374     Phone Number*" className="numberInput"/><img src ={logo1} className="logo1"/>
+                <input placeholder= "+374     Phone Number*" className="numberInput"/>
+                   { /*<PhoneInput placeholder= "+374     Phone Number*" />*/}
                 <input placeholder="Company*" className="companyInput"/>
                 <h2>HOW CAN WE HELP?</h2>
                 <input placeholder="Your Message...*" className="messageContainer"></input>

@@ -11,9 +11,10 @@ p{
 .contactContainer{
     width: 29.73vw;
     height: 40vh;
+    margin: 272px;
     display: flex;
     flex-direction: column;
-    margin-left: 272px;
+    text-align: center;
     margin-top: 0%;
 }
 
@@ -86,10 +87,3 @@ p{
     margin-left: 5%;
 }
 
-.logo1{
-    height: 30px;
-    width: 30px;
-    z-index: 1;
-    margin-top: -80px;
-    margin-bottom: 80px;
-}
