@@ -13,7 +13,8 @@ p{
     height: 40vh;
     display: flex;
     flex-direction: column;
-    margin-left: 15%;
+    margin-left: 272px;
+    margin-top: 0%;
 }
 
 .inputContainer{
@@ -29,20 +30,27 @@ p{
 
 .nameInput{
     height: 64px;
-    width: 14.16vw;
+    width: 14.04vw;
     margin-right: 30px;
+}
+
+.name{
+    flex-direction: start;
 }
 
 .lastNameInput{
     height: 64px;
-    width: 14.16vw;
+    width: 14.04vw;
+}
+
+.lastName{
+    flex-direction: end;
 }
 
 .emailInput{
     height: 64px;
     width: 30vw;
     margin-bottom: 25px;
-    text-align: ;
 }
 
 .numberInput{
@@ -68,11 +76,20 @@ p{
     width: 30vw;
     border-radius: 3px;
     color: #ffff;
-    margin-top: 40px;
+    margin-top: 50px;
     background-image: linear-gradient(to bottom, #04cfd2, #027e80)
 }
 
 .privacyPolicy{
     text-align: center;
     margin-top: 20px;
+    margin-left: 5%;
+}
+
+.logo1{
+    height: 30px;
+    width: 30px;
+    z-index: 1;
+    margin-top: -80px;
+    margin-bottom: 80px;
 }

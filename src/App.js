@@ -3,6 +3,8 @@ import React from "react";
 import Navbar from './components/navbar';
 import Contacts from './components/contacts';
 import Companycontacts from './components/companycontacts';
+import Footer from './components/footer';
+
 
 
 function App() {
@@ -11,9 +13,10 @@ function App() {
      <div className="mainContainer">
        <Navbar/>
        <div className="contactManager">
-       <Contacts/>
-       <Companycontacts/>
+          <div className="contactsContainer"><Contacts/></div>
+          <div className="companyContactsContainer"><Companycontacts/></div>
        </div>
+      <div className="footerAppContainer"><Footer/></div>
      </div>
   );
 }

@@ -1,0 +1,102 @@
+
+.footerContainer{
+    height: 60.78vh;
+    width: 78vw;
+    background-color: #09080d;
+    margin: 52.9px 0 0;
+    padding: 54px 0 36px 272px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLogo{
+    color: #e5e7eb;
+}
+
+.footerInfo{
+    display: flex;
+    flex-direction: row;
+    color: #ffff;
+}
+
+.footerHeaders1{
+    margin-top: 3%;
+    margin-left: 0.5%;
+}
+
+.footerHeaders2{
+    margin-top: 3%;
+    margin-left: 10.5%;
+}
+
+.footerHeaders3{
+    margin-top: 3%;
+    margin-left: 10.2%;
+}
+
+
+.coloumnContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.firstColoumn{
+    margin-left: 10px;
+}
+
+.pTag{
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.secondColoumn{
+    margin-left: 70px;
+}
+
+.thirdColoumn{
+    margin-left: 140px;
+}
+
+.forthColoumn{
+    margin-left: 70px;
+}
+
+.mapPic{
+    z-index: 0;
+    width: 30.2vw;
+    height: 32.2vh;
+    margin-top: 100px;
+}
+
+hr{
+    width: 1376px;
+    height: 0;
+    margin: 4px 272px 0 0;
+    border: solid 1px #707070;
+}
+
+.lastLayer{
+    display: flex;
+    flex-direction: row;
+}
+
+.copyRightPart{
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.copyRightSpan{
+    color: #ffff;
+    margin-left: 0px;
+}
+
+img{
+    margin-left: 10px;
+}
+
+.footerLogos{
+    margin-left: 1100px;
+    margin-top: 10px;
+}

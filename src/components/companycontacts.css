@@ -1,6 +1,138 @@
-.mainContainer{
-    width: 29.73vw;
-    height: 40vh;
+.companyContactMainContainer{
+    width: 35.8vw;
+    height: 125vh;
+    background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
 }
+
+span{
+    margin-left: 137px;
+    color: #1f2937;
+}
+
+h2{
+    color: #1f2937;
+}
+
+.phoneOrEmailSpan{
+    margin-top: 90px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.emailSpan{
+    margin-top: 26px;
+    font-weight: 500;
+}
+
+.numberSpan1{
+    margin-top: 0px;
+}
+
+.numberSpan2{
+    margin-top: -10px;
+}
+
+.findUs{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+
+.facebookImage{
+    margin-left: 137px;
+    height: 3vh;
+    width: 1.5vw;
+}
+
+.linkedinImage{
+    height: 3vh;
+    width: 1.5vw;
+    margin-left: 10px;
+}
+
+.twitterImage{
+    height: 3vh;
+    width: 1.5vw;
+    margin-left: 10px;
+}
+
+.githubImage{
+    height: 3vh;
+    width: 1.5vw;
+    margin-left: 10px;
+}
+
+.instagramImage{
+    height: 3vh;
+    width: 1.5vw;
+    margin-left: 10px;
+}
+
+.imageContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.citySpan{
+    font-size: 65px;
+    font-weight: bold;
+    width: 11.77vw;
+    margin-top: 120px;
+}
+
+.addressLineSpan{
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.addressLineSpan1{
+    margin-top: -18px;
+    font-size: 13px;
+}
+
+.addressContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.innerAddressLineSpan1{
+    margin-left: 137px;
+    font-size: 13px;
+}
+
+.innerCityLineSpan1{
+    margin-left: 137px;
+    font-size: 13px;
+}
+
+.innerAddressLineSpan{
+    margin-left: 80px;
+    font-size: 13px;
+}
+
+.innerCityLineSpan{
+    margin-left: 80px;
+    font-size: 13px;
+}
+
+.firstH2{
+    margin-left: 137px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.secondH2{
+    margin-left: 80px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.messageIcon{
+    height: 35vh;
+    width: 30vw;
+    margin-left: 30%;
+}
+
