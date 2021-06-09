@@ -31,8 +31,10 @@ p{
 
 .nameInput{
     height: 64px;
-    width: 14.04vw;
+    width: 12.6vw;
     margin-right: 30px;
+    padding-left: 30px;
+    color: #6b7280;
 }
 
 .name{
@@ -41,7 +43,9 @@ p{
 
 .lastNameInput{
     height: 64px;
-    width: 14.04vw;
+    width: 12.6vw;
+    padding-left: 30px;
+    color: #6b7280;
 }
 
 .lastName{
@@ -50,31 +54,39 @@ p{
 
 .emailInput{
     height: 64px;
-    width: 30vw;
+    width: 28.65vw;
     margin-bottom: 25px;
+    padding-left: 30px;
+    color: #6b7280;
 }
 
 .numberInput{
     height: 64px;
-    width: 30vw;
+    width: 28.65vw;
     margin-bottom: 25px;
+    padding-left: 30px;
+    color: #6b7280;
 }
 
 .companyInput{
     height: 64px;
-    width: 30vw;
+    width: 28.65vw;
     margin-bottom: 25px;
+    padding-left: 30px;
+    color: #6b7280;
 }
 
 .messageContainer{
     height: 164px;
-    width: 30vw;
+    width: 28.65vw;
     margin-bottom: 25px;
+    padding-left: 30px;
+    color: #6b7280;
 }
 
 .contactsSubmitButton{
     height: 64px;
-    width: 30vw;
+    width: 30.7vw;
     border-radius: 3px;
     color: #ffff;
     margin-top: 50px;

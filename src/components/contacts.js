@@ -9,18 +9,18 @@ export default function Contacts(){
             <div className="inputContainer">
                 <div className="nameSurenameContainer">
                     <div className="name">
-                        <input  placeholder="Your Name*" className="nameInput"/>
+                        <input  placeholder="Your Name  *" className="nameInput"/>
                     </div>
                     <div className="lastName">
-                        <input  placeholder="Last Name*" className="lastNameInput"/>
+                        <input  placeholder="Last Name  *" className="lastNameInput"/>
                     </div>
                 </div>
-                <input placeholder="Email*" className="emailInput"/>
-                <input placeholder= "+374     Phone Number*" className="numberInput"/>
+                <input placeholder="Email  *" className="emailInput"/>
+                <input placeholder= "+374     Phone Number  *" className="numberInput"/>
                    { /*<PhoneInput placeholder= "+374     Phone Number*" />*/}
-                <input placeholder="Company*" className="companyInput"/>
+                <input placeholder="Company  *" className="companyInput"/>
                 <h2>HOW CAN WE HELP?</h2>
-                <input placeholder="Your Message...*" className="messageContainer"></input>
+                <input placeholder="Your Message...  *" className="messageContainer"></input>
                 <label>
                     <input type="checkbox"/>
                     Yes, I want to subscribe
