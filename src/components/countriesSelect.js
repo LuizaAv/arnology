@@ -6,16 +6,20 @@ import {useState} from "react";
 
 
 export default function CountriesSelect(){
-    const [countryCode, setCountryCode] = useState("")
+    const [countryCode, setCountryCode] = useState();
+    
+    const countryHandler = (e) =>{
+        setCountryCode(e.target.value)
+    }
     
 
     return(
         <div>
             <div className="countriesSelectorContainer">
-            <img src="https://flagpedia.net/data/flags/h80/am.webp" id="img"  className="flag-img"/>
+            <img src= "https://flagpedia.net/data/flags/h80/am.webp" id="img"  className="flag-img"/>
             <div className="selectContainer">
-            <select id="country">
-            <option value="" hidden></option> 
+            <select id="country"  onChange={countryHandler}>
+                <option value="" hidden></option> 
                 <option data-countryCode="AF" value="93">Afghanistan (+93)</option>
                 <option data-countryCode="AL" value="355">Albania (+355)</option>
                 <option data-countryCode="DZ" value="213">Algeria (+213)</option>
@@ -263,8 +267,7 @@ export default function CountriesSelect(){
             </div>
                 <input 
                 className="phoneNumberInput" 
-                placeholder="+374     Phone Number*"
-                
+                placeholder={`${countryCode ? countryCode : "  +374"}    Phone Number*`}
                 />
             </div>
         </div>
