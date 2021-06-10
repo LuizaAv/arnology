@@ -13,19 +13,24 @@ export default function Companycontacts(){
             <span className="phoneOrEmailSpan">Prefer to email or phone?</span>
                 <br/>
             <span className="emailSpan">info@arnology.am</span>
+            <hr className="emailUnderline"/>
                 <br/>
-            <span className="numberSpan1">+374 77065303</span>
+            <div>
+                <span className="numberSpan1">+374 77065303</span>
+                    <br/>
+                <span className="numberSpan2">+374 41960626</span>
+            </div>
                 <br/>
-            <span className="numberSpan2">+374 41960626</span>
-                <br/>
-            <span className="findUs">Find Us</span>
-                <br/>
-            <div src="imageContainer">
-                <img src={facebook} className="facebookImage"/>
-                <img src={linkedin} className="linkedinImage"/>
-                <img src={twitter} className="twitterImage"/>
-                <img src={github} className="githubImage"/>
-                <img src={instagram} className="instagramImage"/>
+            <div className="findUsContainer">
+                <span className="findUs">Find Us</span>
+                    <br/>
+                <div src="imageContainer">
+                    <img src={facebook} className="facebookImage"/>
+                    <img src={linkedin} className="linkedinImage"/>
+                    <img src={twitter} className="twitterImage"/>
+                    <img src={github} className="githubImage"/>
+                    <img src={instagram} className="instagramImage"/>
+                </div>
             </div>
             <br/>
             <span className="citySpan">YEREVAN</span>

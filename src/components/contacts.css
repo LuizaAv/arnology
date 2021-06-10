@@ -6,6 +6,7 @@ p{
     font-size: 70px;
     font-weight: 700;
     text-align: center;
+    color: #1f2937;
 }
 
 .contactContainer{
@@ -34,7 +35,7 @@ p{
     width: 12.6vw;
     margin-right: 30px;
     padding-left: 30px;
-    color: #6b7280;
+    border: solid 1px #b6b9bc;
 }
 
 .name{
@@ -45,7 +46,7 @@ p{
     height: 64px;
     width: 12.6vw;
     padding-left: 30px;
-    color: #6b7280;
+    border: solid 1px #b6b9bc;
 }
 
 .lastName{
@@ -57,7 +58,7 @@ p{
     width: 28.65vw;
     margin-bottom: 25px;
     padding-left: 30px;
-    color: #6b7280;
+    border: solid 1px #b6b9bc;
 }
 
 .numberInput{
@@ -65,7 +66,7 @@ p{
     width: 28.65vw;
     margin-bottom: 25px;
     padding-left: 30px;
-    color: #6b7280;
+    border: solid 1px #b6b9bc;
 }
 
 .companyInput{
@@ -73,7 +74,7 @@ p{
     width: 28.65vw;
     margin-bottom: 25px;
     padding-left: 30px;
-    color: #6b7280;
+    border: solid 1px #b6b9bc;
 }
 
 .messageContainer{
@@ -81,7 +82,7 @@ p{
     width: 28.65vw;
     margin-bottom: 25px;
     padding-left: 30px;
-    color: #6b7280;
+    border: solid 1px #b6b9bc;
 }
 
 .contactsSubmitButton{
@@ -97,5 +98,14 @@ p{
     text-align: center;
     margin-top: 20px;
     margin-left: 5%;
+    color: #1f2937;
+    font-size: 14px;
 }
+
+.checkboxLabel{
+    margin-left: -390px;
+    color: #6b7280;
+}
+
+
 

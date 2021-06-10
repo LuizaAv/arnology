@@ -1,6 +1,7 @@
 import React from "react"
 import "./contacts.css"
-import PhoneInput from "react-phone-number-input"
+import CountriesSelect from "./countriesSelect"
+
 
 export default function Contacts(){
     return(
@@ -16,12 +17,12 @@ export default function Contacts(){
                     </div>
                 </div>
                 <input placeholder="Email  *" className="emailInput"/>
-                <input placeholder= "+374     Phone Number  *" className="numberInput"/>
+                <CountriesSelect/>
                    { /*<PhoneInput placeholder= "+374     Phone Number*" />*/}
                 <input placeholder="Company  *" className="companyInput"/>
                 <h2>HOW CAN WE HELP?</h2>
                 <input placeholder="Your Message...  *" className="messageContainer"></input>
-                <label>
+                <label className="checkboxLabel">
                     <input type="checkbox"/>
                     Yes, I want to subscribe
                 </label>

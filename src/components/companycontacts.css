@@ -74,7 +74,10 @@ h2{
 .imageContainer{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+}
+
+.findUsContainer{
+    margin-top: 40px;
 }
 
 .citySpan{
@@ -137,3 +140,9 @@ h2{
     margin-left: 30%;
 }
 
+.emailUnderline{
+    width: 132px;
+    height: 0;
+    margin: 2px 151.5px 5px 137px;
+    border: solid 0.5px #aaadb3;
+}

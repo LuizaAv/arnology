@@ -1,8 +1,18 @@
 import React from "react";
 import "./navbar.css";
-import logo from "../pictures/arn_logo.png"
+import logo from "../pictures/arn_logo.png";
+import MenuItem from '@material-ui/core/MenuItem';
+import Select from '@material-ui/core/Select';
+import {useState} from "react";
+
 
 export default function Navbar(){
+    const [selectValue, setSelectValue] = useState("")
+
+    const handleChange = (e) => {
+        setSelectValue(e.target.value)
+    }
+
     return(
         <div className="navbarContainer">
             <img src={logo} className="logo"/>
@@ -16,11 +26,18 @@ export default function Navbar(){
             <div>
                 <button className="getAnEstimateButton">GET AN ESTIMATE</button>
             </div>
-            <select>
-                <option>AM</option>
-                <option>EN</option>
-                <option>RU</option>
-            </select>
+            <Select
+                    className="selectContainer1" 
+                    variant="standard"
+                    disableUnderline
+                    value={selectValue}
+                    onChange={handleChange}
+                    label="EN"
+                    >
+                    <MenuItem value="EN" className="selectItem">EN</MenuItem>
+                    <MenuItem value="AM" className="selectItem">AM</MenuItem>
+                    <MenuItem value="RU" className="selectItem">RU</MenuItem>
+                </Select>
         </div>
     )
 }
