@@ -91,7 +91,9 @@ p{
     border-radius: 3px;
     color: #ffff;
     margin-top: 50px;
-    background-image: linear-gradient(to bottom, #04cfd2, #027e80)
+    background-image: linear-gradient(to bottom, #04cfd2, #027e80);
+    outline: none;
+    border: none;
 }
 
 .privacyPolicy{
@@ -107,5 +109,30 @@ p{
     color: #6b7280;
 }
 
+@media only screen and (max-width: 1024px){
 
+    .contactContainer{
+        background-color: #ffffff;
+        margin-left: 60%;
+        height: 500px;
+    }
+
+    .inputContainer{
+        background-color: #ffffff;
+    }
+
+    p{
+        font-size: 55px;  
+        background-color: #ffffff;
+    }
+    .nameInput{
+        width: 11.15vw;
+    }
+    .lastNameInput{
+        width: 11.15vw;
+    }
+    .checkboxLabel{
+        margin-left: 10px;
+    }
+}
 

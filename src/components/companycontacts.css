@@ -146,3 +146,43 @@ h2{
     margin: 2px 151.5px 5px 137px;
     border: solid 0.5px #aaadb3;
 }
+
+
+@media only screen and (max-width: 1024px){
+    .companyContactMainContainer{
+        margin-left: 100px;
+        margin-top: 250px;
+        height: 133vh;
+        width: 60vw;
+    }
+
+    .citySpan{
+        font-size: 55px;
+    }
+    
+    .addressContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondH2{
+        margin-left: 22%;
+    }
+    .innerAddressLineSpan{
+        margin-left: 22%;
+    }
+    .innerCityLineSpan{
+        margin-left: 22%;
+    }
+
+    .messageIcon{
+        margin-left: 53%;
+        margin-top: -20%;
+        height: 30vh;
+        z-index: 0;
+    }
+
+    .lastParagraphContainer{
+        margin-top: -10px;
+    }
+}

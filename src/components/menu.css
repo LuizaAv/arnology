@@ -1,0 +1,83 @@
+
+
+.menuContainer{
+    height: auto;
+    width: 100%vw;
+    background-color: black;
+    margin-top: -50px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.whiteLogo{
+    z-index: 2;
+    margin-top: 100px;
+    margin-left: 40%;
+}
+
+.logoAndH1{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuitemContainer{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 120%;
+    margin-top: 100px;
+}
+
+.menuLogoContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+}
+
+.iconsDiv{
+    margin-left: -120px;
+}
+
+.menuh1{
+    font-size: 39px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.icons{
+    height: 30px;
+    width: 30px;
+}
+
+ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 10px;
+    margin-left: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.getanEstimateBtn{
+    height: 48px;
+    width: 176px;
+    background-color: black;
+    border: solid 1px #03c4c7;
+    color: #03c4c7;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+
+.closingTag{
+    height: 40px;
+    width: 40px;
+    margin-left: 260%;
+    margin-top: -20px;
+}

@@ -1,7 +1,7 @@
 
 .countriesSelectorContainer{
     height: 58px;
-    width: 582px;
+    width: 30.31vw;
     margin-bottom: 30px;
     border: 1px solid #b6b9bc; 
     padding-bottom: 10px;
@@ -45,4 +45,10 @@ select:hover{
     margin-top: 15px;
     padding-top: 5px;
     margin-left: 30px;
+}
+
+@media only screen and (max-width: 1024px){
+    .countriesSelectorContainer{
+        width: 31.6vw;
+    }
 }

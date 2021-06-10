@@ -44,7 +44,7 @@ export default function Companycontacts(){
                     <br/>
                     <span className="innerCityLineSpan1">Yerevan, Armenia</span>
                 </div>
-                <div>
+                <div className="lastParagraphContainer">
                     <h2 className="secondH2">LA</h2>
                     <span className="innerAddressLineSpan">49 Tigran Mets Avenue, 5th floor</span>
                     <br/>

@@ -58,7 +58,7 @@ export default function Footer(){
                 </div>
                 <img src={map} className="mapPic"/>
             </div>
-            <hr/>
+            <hr className="footerHr"/>
             <div className="lastLayer">
                 <div className="copyRightPart">
                     <span className="copyRightSpan">Copyright. 2021</span>

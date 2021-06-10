@@ -41,6 +41,11 @@ a{
     margin-top: 10px;
 }
 
+.contact{
+    color: #03989b;
+    font-weight: 700;
+}
+
 
 {/*select{
     margin-top: 3px;
@@ -65,7 +70,8 @@ option:not(:checked){
     width: 60px;
     text-decoration: none;
     outline: none;
-    border: 1px solid #ffffff
+    margin-left: 60px;
+    border: 1px solid #ffffff;
 }
 
 .selectContainer:hover{
@@ -81,5 +87,15 @@ option:not(:checked){
 }
 .selectItem{
     background-color: #ffffff;
-    
+}
+
+@media only screen and (max-width: 1024px){
+    .logo{
+        margin-left: 20%;
+    }
+
+    .menu{
+        width: 9vw;
+        margin-left: 48%;
+    }
 }

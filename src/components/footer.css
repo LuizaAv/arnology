@@ -9,10 +9,6 @@
     flex-direction: column;
 }
 
-.footerLogo{
-    color: #e5e7eb;
-}
-
 .footerInfo{
     display: flex;
     flex-direction: row;
@@ -99,4 +95,62 @@ img{
 .footerLogos{
     margin-left: 1100px;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 1024px){
+    .footerContainer{
+        margin-top: 20px;
+        width: 65vw;
+    }
+    .footerLogo{
+        margin-left: -20%;
+        width: 300px;
+    }
+    .pTag{
+        font-size: 9px;
+        background-color: black;
+    }
+
+    .footerInfo{
+        margin-left: -24%;
+    }
+
+    .coloumnContainer{
+        margin-left: -25%;
+    }
+
+    .secondColoumn{
+        margin-left: 4%;
+    }
+
+    .thirdColoumn{
+        margin-left: 8%;
+    }
+
+    .mapPic{
+        position: absolute;
+        height: 250px;
+        width: 650px;
+        margin-left: -50px;
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+
+    .footerHr{
+        width: 550px;
+        margin-left: -25%;
+    }
+
+    .copyRightPart{
+        font-size: 10px;
+        margin-left: -23%;
+    }
+    .footerLogos{
+        margin-left: 50%;
+        width: 100px;
+    }
+    img{
+        float: left;
+    }
+   
 }
