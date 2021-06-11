@@ -8,6 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Footer from "../footer";
+import WorkPanel from "./workpanel";
 
 const useStyles = makeStyles( (theme) => ({
     root: {
@@ -28,6 +29,7 @@ const useStyles = makeStyles( (theme) => ({
         padding: theme.spacing(2),
         textAlign: 'center',
         color: theme.palette.text.secondary,
+        marginLeft: 20
       },
   }));
 
@@ -36,6 +38,7 @@ export default function Works(){
     return(
         <div className="worksPageContainer">
             <Navbar/>
+            <WorkPanel/>
             <div className="picturesGridContainer">
             <Grid container spacing={3} >
                 <Grid item xs={4}>
