@@ -14,7 +14,7 @@ import  {
    Link
  } from "react-router-dom";
 import ErrorPage from './components/errorpage';
-import Works from './components/works';
+import Works from './components/Works/works';
 
 
 function App() {
