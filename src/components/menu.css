@@ -4,8 +4,7 @@
     height: 800px;
     width: 100%vw;
     background-color: black;
-    margin-top: -50px;
-    padding: 0px;
+    margin-top: -110px;
     display: flex;
     flex-direction: row;
 }
@@ -78,6 +77,6 @@ ul li{
 .closingTag{
     height: 40px;
     width: 40px;
-    margin-left: 260%;
-    margin-top: -20px;
+    margin-left: 205%;
+    margin-top: -25px;
 }

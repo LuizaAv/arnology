@@ -21,9 +21,9 @@ function App() {
   return (
      <div className="mainContainer">
        <Router>
-         <Navbar/>
          <Switch>
-            <Route path="/" >
+            <Route path="/" exact>
+               <Navbar/>
                <div className="contactManager">
                <div className="contactsContainer"><Contacts/></div>
                <div className="companyContactsContainer">

@@ -6,8 +6,14 @@ import Select from '@material-ui/core/Select';
 import { makeStyles } from '@material-ui/core/styles';
 import {useState} from "react";
 import {useMediaQuery} from "react-responsive"
-import menuIcon from "../pictures/hamburgerMenu.png"
+import {BsList} from "react-icons/bs";
 
+
+import  {
+    Route,
+    Link
+  } from "react-router-dom";
+import Menu from "./menu";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -66,7 +72,13 @@ export default function Navbar(){
                 {
                     isTabletOrMobile && <>
                         <img src={logo} className="logo"/>
-                        <img src={menuIcon} className="menu" />
+                        <Link  to="/menu" className="menuLink" >
+                            <BsList className="menu"/>
+                        </Link>
+                        <Route
+                            path='/menu'
+                            render={() => <Menu/>}
+                        />
                     </>
                 }
         </div>

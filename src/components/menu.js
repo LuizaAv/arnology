@@ -9,6 +9,11 @@ import instagram from "../pictures/instagramWhite.png"
 import {HiOutlineX} from 'react-icons/hi';
 
 
+import  {
+    Route,
+    Link
+  } from "react-router-dom";
+
 
 export default function Menu(){
 
@@ -16,7 +21,12 @@ export default function Menu(){
         <div className="menuContainer">
             <div>
                 <img  src={logo} className="whiteLogo" />
-                <HiOutlineX color="white" className="closingTag" />
+                <Link to="/">
+                    <HiOutlineX color="white" className="closingTag" />
+                </Link>
+                <Route
+                path='/'
+                />
             </div>
             <div className="logoAndH1">
                 <div className="menuitemContainer">
