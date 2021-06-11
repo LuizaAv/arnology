@@ -14,6 +14,7 @@ import  {
    Link
  } from "react-router-dom";
 import ErrorPage from './components/errorpage';
+import Works from './components/works';
 
 
 function App() {
@@ -40,6 +41,9 @@ function App() {
             </Route>
             <Route path="/errorpage">
                <ErrorPage />
+            </Route>
+            <Route path="/works">
+               <Works/>
             </Route>
          </Switch>
        </Router>

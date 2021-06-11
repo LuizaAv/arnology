@@ -42,11 +42,11 @@ export default function Navbar(){
                 isDesktopOrLaptop && <>
                     <img src={logo} className="logo"/>
                     <div className="pageNames">
-                        <a>About</a>
-                        <a to="/services" >Services</a>
-                        <a to="/works" >Works</a>
-                        <a to="/career" >Career</a>
-                        <a to="/" >Contact</a>
+                        <Link to="/about" className="navbarLinks">About</Link>
+                        <Link to="/services" className="navbarLinks">Services</Link>
+                        <Link to="/works" className="navbarLinks">Works</Link>
+                        <Link to="/career" className="navbarLinks">Career</Link>
+                        <Link to="/contact" className="navbarLinks">Contact</Link>
                     </div>
                     <div>
                         <button className="getAnEstimateButton">GET AN ESTIMATE</button>
