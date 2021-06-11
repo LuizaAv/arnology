@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import logo from "../pictures/arn_logo.png";
+import logo from "../pictures/arn_logo_white.png";
 import map from "../pictures/world_map.png";
 import facebook from "../pictures/facebookWhite.png";
 import linkedin from "../pictures/linkedinWhite.png";
