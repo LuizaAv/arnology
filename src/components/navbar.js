@@ -7,16 +7,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import {useState} from "react";
 import {useMediaQuery} from "react-responsive"
 import {BsList} from "react-icons/bs";
-
+import Menu from "../components/menu"
 
 import  {Route,Link} from "react-router-dom";
 
 
-import Menu from "./menu";
-import About from "./about";
-import Services from "./services";
-import Works from "./works";
-import Career from "./Career"
 
 
 const useStyles = makeStyles((theme) => ({
@@ -48,27 +43,12 @@ export default function Navbar(){
                 isDesktopOrLaptop && <>
                     <img src={logo} className="logo"/>
                     <div className="pageNames">
-                        <Link to="/about" className="navLinks">About</Link>
-                        <Link to="/services" className="navLinks">Services</Link>
-                        <Link to="/works" className="navLinks">Works</Link>
-                        <Link to="/career" className="navLinks">Career</Link>
-                        <Link to="/" className="contact" exact>Contact</Link>
-                        <Route
-                            path='/about'
-                            render={() => <About/>}
-                        />
-                        <Route
-                            path='/services'
-                            render={() => <Services />}
-                        />
-                        <Route
-                            path='/works'
-                            render={() => <Works/>}
-                        />
-                        <Route
-                            path='/career'
-                            render={() => <Career/>}
-                        />
+                        <a>About</a>
+                        <a to="/services" >Services</a>
+                        <a to="/works" >Works</a>
+                        <a to="/career" >Career</a>
+                        <a to="/" >Contact</a>
+                        
                     </div>
                     <div>
                         <button className="getAnEstimateButton">GET AN ESTIMATE</button>
