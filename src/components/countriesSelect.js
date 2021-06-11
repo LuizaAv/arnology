@@ -6,17 +6,22 @@ import {useState} from "react";
 
 
 export default function CountriesSelect(){
-    const [countryCode, setCountryCode] = useState();
+    const [countryCode, setCountryCode] = useState("");
+    const [flagImg, setFlagImg] = useState("")
     
     const countryHandler = (e) =>{
         setCountryCode(e.target.value)
     }
     
+    const handleFlagChange = () => {
+        const select = document.getElementById("country")
+        setFlagImg(`https://flagpedia.net/data/flags/h80/${select.selectedOptions[0].getAttribute("data-countryCode").toLowerCase()}.webp`)
+    }
 
     return(
         <div>
-            <div className="countriesSelectorContainer">
-            <img src= "https://flagpedia.net/data/flags/h80/am.webp" id="img"  className="flag-img"/>
+            <div className="countriesSelectorContainer" onChange={handleFlagChange}>
+            <img src= {`${flagImg ? flagImg : "https://flagpedia.net/data/flags/h80/am.webp"}`} id="img"  className="flag-img"/>
             <div className="selectContainer">
             <select id="country"  onChange={countryHandler}>
                 <option value="" hidden></option> 
