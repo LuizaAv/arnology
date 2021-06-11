@@ -8,13 +8,15 @@ import github from "../pictures/githubWhite.png";
 import instagram from "../pictures/instagramWhite.png"
 import {HiOutlineX} from 'react-icons/hi';
 
+
+
 export default function Menu(){
-      
+
     return(
         <div className="menuContainer">
             <div>
-                <img  src={logo} className="whiteLogo"/>
-                <HiOutlineX color="white" className="closingTag"/>
+                <img  src={logo} className="whiteLogo" />
+                <HiOutlineX color="white" className="closingTag" />
             </div>
             <div className="logoAndH1">
                 <div className="menuitemContainer">
