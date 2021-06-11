@@ -13,7 +13,6 @@ import  {Route,Link} from "react-router-dom";
 
 
 
-
 const useStyles = makeStyles((theme) => ({
     formControl: {
       margin: theme.spacing(1),
@@ -48,7 +47,6 @@ export default function Navbar(){
                         <a to="/works" >Works</a>
                         <a to="/career" >Career</a>
                         <a to="/" >Contact</a>
-                        
                     </div>
                     <div>
                         <button className="getAnEstimateButton">GET AN ESTIMATE</button>

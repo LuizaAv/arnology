@@ -1,0 +1,43 @@
+
+.error404Container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.errorPic{
+    width: 29.3 vw;
+    height: 14.6vh;
+    margin:auto;
+    margin-top: 9%;
+    color: #1f2937;
+}
+
+.textContainer404{
+    margin-left: 42%;
+    margin-top: 60px;
+}
+
+.p404{
+    font-size: 16px;
+    margin-left: 40%;
+    height: 43px;
+    width: 21.6vw;
+    color: #6b7280;
+}
+
+.button404{
+    width: 11.6vw;
+    height: 6.65vh;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    margin-left: 45%;
+    margin-top: 40px;
+    padding: 23px 32px 22px 31px;
+    ont-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, #04cfd2, #027e80);
+}

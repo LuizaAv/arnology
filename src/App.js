@@ -13,6 +13,7 @@ import  {
    Route,
    Link
  } from "react-router-dom";
+import ErrorPage from './components/errorpage';
 
 
 function App() {
@@ -36,6 +37,9 @@ function App() {
             </Route>
             <Route path="/menu">
                <Menu />
+            </Route>
+            <Route path="/errorpage">
+               <ErrorPage />
             </Route>
          </Switch>
        </Router>
