@@ -21,7 +21,7 @@ export default function Menu(){
         <div className="menuContainer">
             <div>
                 <img  src={logo} className="whiteLogo" />
-                <Link to="/">
+                <Link to="/contact">
                     <HiOutlineX color="white" className="closingTag" />
                 </Link>
                 <Route
