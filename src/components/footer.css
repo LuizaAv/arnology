@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
 
 .footerContainer{
     height: 60.78vh;
@@ -18,16 +19,19 @@
 .footerHeaders1{
     margin-top: 3%;
     margin-left: 0.5%;
+    font-family: Cairo;
 }
 
 .footerHeaders2{
     margin-top: 3%;
     margin-left: 10.5%;
+    font-family: Cairo;
 }
 
 .footerHeaders3{
     margin-top: 3%;
     margin-left: 10.2%;
+    font-family: Cairo;
 }
 
 
@@ -45,6 +49,7 @@
     font-size: 14px;
     font-weight: 400;
     text-align: left;
+    font-family: Cairo;
 }
 
 .secondColoumn{
@@ -86,6 +91,7 @@ hr{
 .copyRightSpan{
     color: #ffff;
     margin-left: 0px;
+    font-family: Cairo;
 }
 
 img{

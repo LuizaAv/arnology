@@ -31,21 +31,20 @@ export default function Navbar(){
         setSelectValue(e.target.value)
     }
     
-    
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' })
     const isDesktopOrLaptop  = useMediaQuery({ query: '(min-width: 1025px)' })
 
-
+   
     return(
         <div className="navbarContainer">
             {
                 isDesktopOrLaptop && <>
                     <img src={logo} className="logo"/>
                     <div className="pageNames">
-                        <Link to="/about" className="navbarLinks">About</Link>
+                        <Link to="/about" className="navbarLinks" >About</Link>
                         <Link to="/services" className="navbarLinks">Services</Link>
                         <Link to="/works" className="navbarLinks">Works</Link>
-                        <Link to="/career" className="navbarLinks">Career</Link>
+                        <Link to="/career" className="navbarLinks" >Career</Link>
                         <Link to="/contact" className="navbarLinks">Contact</Link>
                     </div>
                     <div>
