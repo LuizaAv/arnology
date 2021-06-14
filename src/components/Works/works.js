@@ -1,9 +1,9 @@
 import React from "react"
-import Navbar from "../navbar"
+import Navbar from "../navbar/navbar"
 import "./works.css"
 
 import WorkPanel from "./workpanel";
-import Footer from "../footer";
+import Footer from "../footer/footer";
 import ProjectLines from "./projectLines";
 import {useMediaQuery} from "react-responsive";
 

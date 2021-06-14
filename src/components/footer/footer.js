@@ -1,12 +1,12 @@
 import React from "react";
 import "./footer.css";
-import logo from "../pictures/arn_logo_white.png";
-import map from "../pictures/world_map.png";
-import facebook from "../pictures/facebookWhite.png";
-import linkedin from "../pictures/linkedinWhite.png";
-import twitter from "../pictures/twitterWhite.png";
-import github from "../pictures/githubWhite.png";
-import instagram from "../pictures/instagramWhite.png"
+import logo from "../../pictures/arn_logo_white.png";
+import map from "../../pictures/world_map.png";
+import facebook from "../../pictures/facebookWhite.png";
+import linkedin from "../../pictures/linkedinWhite.png";
+import twitter from "../../pictures/twitterWhite.png";
+import github from "../../pictures/githubWhite.png";
+import instagram from "../../pictures/instagramWhite.png"
 
 export default function Footer(){
     

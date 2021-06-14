@@ -1,6 +1,6 @@
 import React from "react"
 import "./contacts.css"
-import CountriesSelect from "./countriesSelect"
+import CountriesSelect from "../countriesSelect/countriesSelect"
 
 
 export default function Contacts(){

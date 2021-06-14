@@ -1,13 +1,13 @@
 import React from "react";
 import "./navbar.css";
-import logo from "../pictures/arn_logo.png";
+import logo from "../../pictures/arn_logo.png";
 import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
 import { makeStyles } from '@material-ui/core/styles';
 import {useState} from "react";
 import {useMediaQuery} from "react-responsive"
 import {BsList} from "react-icons/bs";
-import Menu from "../components/menu"
+import Menu from "../menu/menu"
 
 import  {Route,Link} from "react-router-dom";
 

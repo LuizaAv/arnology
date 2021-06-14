@@ -1,11 +1,11 @@
 import React from "react";
 import "./companycontacts.css";
-import facebook from "../pictures/facebook.png";
-import linkedin from "../pictures/linkedin.png";
-import twitter from "../pictures/twitter.png";
-import github from "../pictures/github.png";
-import instagram from "../pictures/instagram.png";
-import contacts from "../pictures/contacts.png";
+import facebook from "../../pictures/facebook.png";
+import linkedin from "../../pictures/linkedin.png";
+import twitter from "../../pictures/twitter.png";
+import github from "../../pictures/github.png";
+import instagram from "../../pictures/instagram.png";
+import contacts from "../../pictures/contacts.png";
 
 export default function Companycontacts(){
     return(

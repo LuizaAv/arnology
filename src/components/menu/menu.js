@@ -1,11 +1,11 @@
 import React from "react"
-import logo from "../pictures/arn_logo_white.png"
+import logo from "../../pictures/arn_logo_white.png"
 import "./menu.css"
-import facebook from "../pictures/facebookWhite.png";
-import linkedin from "../pictures/linkedinWhite.png";
-import twitter from "../pictures/twitterWhite.png";
-import github from "../pictures/githubWhite.png";
-import instagram from "../pictures/instagramWhite.png"
+import facebook from "../../pictures/facebookWhite.png";
+import linkedin from "../../pictures/linkedinWhite.png";
+import twitter from "../../pictures/twitterWhite.png";
+import github from "../../pictures/githubWhite.png";
+import instagram from "../../pictures/instagramWhite.png"
 import {HiOutlineX} from 'react-icons/hi';
 
 

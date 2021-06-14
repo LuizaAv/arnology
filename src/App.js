@@ -1,24 +1,21 @@
 import './App.css';
 import React from "react";
-import Navbar from './components/navbar';
-import Contacts from './components/contacts';
-import Companycontacts from './components/companycontacts';
-import Footer from './components/footer';
-import {useState} from "react"
+import Navbar from './components/navbar/navbar';
+import Contacts from './components/contacts/contacts';
+import Companycontacts from './components/companycontacts/companycontacts';
+import Footer from './components/footer/footer';
 
-import Menu from "./components/menu"
+import Menu from "./components/menu/menu"
 import  {
    BrowserRouter as Router,
    Switch,
    Route,
-   Link
  } from "react-router-dom";
-import ErrorPage from './components/errorpage';
+import ErrorPage from './components/errorpage/errorpage';
 import Works from './components/Works/works';
 
 
 function App() {
-
 
   return (
      <div className="mainContainer">

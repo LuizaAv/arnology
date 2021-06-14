@@ -1,8 +1,8 @@
 import React from "react"
 import "./errorpage.css"
 
-import Navbar from "./navbar"
-import errorpicture from "../pictures/error_404.png"
+import Navbar from "../navbar/navbar"
+import errorpicture from "../../pictures/error_404.png"
 import  {Route,Link} from "react-router-dom";
 
 
