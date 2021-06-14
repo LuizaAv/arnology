@@ -3,7 +3,7 @@
 .navbarContainer{
     display: flex;
     height: 60px;
-    width: 100vw;
+    width: 100%;
     margin-top: 58px;
     flex-direction: row;
 }
@@ -17,9 +17,14 @@
 }
 
 .navbarLinks{
-    margin: 37px;
+    margin: 22px;
     text-decoration: none;
+    font-size: 16px;
     color: #1f2937
+}
+
+.navbarLinks:focus{
+    color: #03989b;
 }
 
 
@@ -27,7 +32,7 @@
     width: 9.16vw;
     height: 4.95vh;
     margin: 3px;
-    margin-left: 40px;
+    margin-left: 35px;
     padding: 15px 18px 14px;
     background-color: #03989b;
     color: #ffff;

@@ -15,13 +15,13 @@ export default function  WorkPanel(){
             <Grid item xs={12} sm={6} lg={4}>
                 <Grid>
                     <div >
-                        <a style={{color: "#03989b"}} href="">All</a>
-                        <a href="">Social</a>
-                        <a href="">Ecommerce</a>
-                        <a href="">Travel</a>
-                        <a href="">Booking</a>
-                        <a href="">Apps</a>
-                        <a href="">Other</a>
+                        <a style={{color: "#03989b"}} href="" className="aLinksList">All</a>
+                        <a href="" className="aLinksList">Social</a>
+                        <a href="" className="aLinksList">Ecommerce</a>
+                        <a href="" className="aLinksList">Travel</a>
+                        <a href="" className="aLinksList">Booking</a>
+                        <a href="" className="aLinksList">Apps</a>
+                        <a href="" className="aLinksList">Other</a>
                     </div>
                 </Grid>
             </Grid>

@@ -35,13 +35,13 @@ export default function Menu(){
                     <h1 className="menuh1">WORKS</h1>
                     <h1 className="menuh1">CAREER</h1>
                     <h1 className="menuh1">CONTACT</h1>
-                    <div>
+                <div>
                         <ul>
                             <li>AM</li>
                             <li>RU</li>
                             <li>HY</li>
                         </ul>
-                    </div>
+            </div>
                     <button className="getanEstimateBtn">GET AN ESTIMATE</button>
                 </div>
                 <div className="menuLogoContainer">

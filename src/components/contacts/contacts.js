@@ -20,14 +20,16 @@ export default function Contacts(){
                 <CountriesSelect/>
                    { /*<PhoneInput placeholder= "+374     Phone Number*" />*/}
                 <input placeholder="Company  *" className="companyInput"/>
-                <h2>HOW CAN WE HELP?</h2>
+                <div  className="howToHelp">
+                    <h2>HOW CAN WE HELP?</h2>
+                </div>
                 <input placeholder="Your Message...  *" className="messageContainer"></input>
                 <label className="checkboxLabel">
                     <input type="checkbox"/>
                     Yes, I want to subscribe
                 </label>
                 <button className="contactsSubmitButton">Send</button>
-                <span className="privacyPolicy">By clicking the button I agree with the  collection and processing of my personal data as described in the <a href="">Privacy Policy</a></span>
+                <span className="privacyPolicy">By clicking the button I agree with the  collection and processing of my personal data as described in the <a href="" className="privacyLink">Privacy Policy</a></span>
             </div>
         </div>
     )

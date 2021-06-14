@@ -8,7 +8,9 @@
 }
 
 .contactManager{
-  display: flex;
+  display: grid;
+  grid-template-columns: 688px 688px;
+  grid-gap: 300px;
 }
 
 .contactsContainer{

@@ -9,12 +9,14 @@ p{
     color: #1f2937;
 }
 
+.howToHelp{
+ margin-left: -338px;   
+}
 .contactContainer{
     width: 29.73vw;
     height: 40vh;
     margin: 272px;
-    display: flex;
-    flex-direction: column;
+    grid-column-end: 6;
     text-align: center;
     margin-top: 0%;
 }
@@ -102,6 +104,11 @@ p{
     margin-left: 5%;
     color: #1f2937;
     font-size: 14px;
+}
+
+.privacyLink{
+    color: #03989b;
+    text-decoration: none;
 }
 
 .checkboxLabel{
