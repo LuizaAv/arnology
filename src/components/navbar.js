@@ -45,7 +45,7 @@ export default function Navbar(){
                         <Link to="/services" className="navbarLinks">Services</Link>
                         <Link to="/works" className="navbarLinks">Works</Link>
                         <Link to="/career" className="navbarLinks" >Career</Link>
-                        <Link to="/contact" className="navbarLinks">Contact</Link>
+                        <Link to="/" className="navbarLinks">Contact</Link>
                     </div>
                     <div>
                         <button className="getAnEstimateButton">GET AN ESTIMATE</button>

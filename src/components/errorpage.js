@@ -18,7 +18,7 @@ export default function ErrorPage(){
                     <h2 className="textContainer404">Sorry! The Page Not Found</h2>
                     <p className="p404">The link you followed probably broken, or the page has been removed.</p>
                 </div>
-                <Link to="/contact">
+                <Link to="/">
                     <button className="button404">
                         BACK TO HOMEPAGE
                     </button>

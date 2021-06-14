@@ -24,7 +24,7 @@ function App() {
      <div className="mainContainer">
        <Router>
          <Switch>
-            <Route path="/contact" exact>
+            <Route path="/" exact>
                <Navbar/>
                <div className="contactManager">
                <div className="contactsContainer"><Contacts/></div>
